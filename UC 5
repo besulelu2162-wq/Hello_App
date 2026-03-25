@@ -2,7 +2,7 @@ public class HelloAppUC5 {
     public static void main(String[] args) {
         String result;
         if (args.length == 0) {
-            result = "World";
+            result = "Lyari";
         } else {
             StringBuilder names = new StringBuilder();
             for (String name : args) {
@@ -14,6 +14,6 @@ public class HelloAppUC5 {
 
             result = names.toString();
         }
-        System.out.println("Hello, " + result + "!");
+        System.out.println("Salam valerkum " + result + "!");
     }
 }
